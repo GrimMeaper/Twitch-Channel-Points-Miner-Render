@@ -132,7 +132,7 @@ class Twitch(object):
         from TwitchChannelPointsMiner.constants import USER_AGENTS
 
         headers = {"User-Agent": USER_AGENTS["Linux"]["FIREFOX"]}
-        regex_settings = "(https://static.twitchcdn.net/config/settings.*?js)"
+           regex_settings = "(https://static.twitchcdn.net/config/settings.*?js)"
         max_retries = 5
         delay = 5  # Delay in seconds between retries
 
